@@ -21,7 +21,7 @@ namespace CapNhatUngDung
         private void button1_Click(object sender, EventArgs e)
         {
             //AutoUpdater.Start("http://laptrinhvb.net/update.xml");
-            AutoUpdater.Start("https://raw.githubusercontent.com/LuongCongHan/KiemTraSerial/master/dotplcUpdate.xml?token=GHSAT0AAAAAACNVCYMO2ZRZFWIVUYPJG4UOZN572DA");
+            AutoUpdater.Start("https://raw.githubusercontent.com/LuongCongHan/TestUpdateUngDung/master/CapNhatUngDung/CapNhatXML.xml");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace CapNhatUngDung
             timer.Elapsed += delegate
             {
                 //AutoUpdater.Start("http://laptrinhvb.net/update.xml");
-                AutoUpdater.Start("https://raw.githubusercontent.com/LuongCongHan/KiemTraSerial/master/dotplcUpdate.xml");
+                AutoUpdater.Start("https://raw.githubusercontent.com/LuongCongHan/TestUpdateUngDung/master/CapNhatUngDung/CapNhatXML.xml");
             };
             timer.Start();
         }
