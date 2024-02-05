@@ -1,5 +1,6 @@
 {
   "version": "3.0.0.2",
-  "url": "https://raw.githubusercontent.com/LuongCongHan/TestUpdateUngDung/master/CapNhatUngDung/CapNhatXML.xml"
+  "url": "https://raw.githubusercontent.com/LuongCongHan/TestUpdateUngDung/master/CapNhatUngDung/CapNhatXML.xml",
+  "check": "true"
 }
 
